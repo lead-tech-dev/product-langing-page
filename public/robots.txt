@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+disallow: ["/jeff-bezos-vivez-votre-vie-sans-regret", "/246-2", "/tag/attitude-mentale-positive"],
+allow: ["/blog", "/podcast", "/livres", "/formation", "/contact"],

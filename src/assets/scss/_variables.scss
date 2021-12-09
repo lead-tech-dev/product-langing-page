@@ -1,0 +1,85 @@
+/*=============================================
+                 #Variables            
+=============================================*/
+
+/**
+*
+* TABLE OF CONTENTS
+*
+* COLORS 
+* Brand colors ............... ..................... These are the main colors. They will be used the most.
+* Neutral colors .............   secondary colors.
+*
+* TYPOGRAPHY
+* Font families .............. The fonts used in the design system.
+* Font weights ............... Font weights
+*
+* BREAKPOINTS
+* Breakpoints ................ Global responsive breakpoints definitions.
+*
+**/
+
+/*=============================================
+=                  COLORS                     =
+=============================================*/
+
+/*---------  Brands colors  -----------*/
+
+$Orange: hsl(26, 100%, 55%);
+$pale-orange: hsl(25, 100%, 94%);
+
+/*----------  Neutral colors  ----------*/
+
+$very-dark-blue: hsl(220, 13%, 13%);
+$dark-grayish-blue: hsl(219, 9%, 45%);
+$grayish-blue: hsl(220, 14%, 75%);
+$light-grayish-blue: rgb(247, 248, 253);
+$white: hsl(0, 0%, 100%);
+$black-lightbox-opacity: hsl(0, 0%, 0%);
+
+/*=====  End of COLORS  ======*/
+
+/*=============================================
+=            TYPOGRAPHY                       =
+=============================================*/
+
+/**
+ *
+ * 1) The [Kumbh Sans font. We'll use this for the fonts in this project.
+ *     https://fonts.google.com/specimen/Kumbh+Sans
+ *
+ */
+
+/*----------  Font families  ----------*/
+
+$kumbh: "Kumbh Sans", sans-serif; /* 1 */
+
+/*----------  Font sizes  ----------*/
+
+$fs-base: 1rem; // 16px
+
+/*----------  Font weights  ----------*/
+
+$fw-normal: 400;
+$fw-bold: 700;
+
+/*=====  End of TYPOGRAPHY  ======*/
+
+/*=============================================
+=            BREAKPOINTS                      =
+=============================================*/
+
+$breakpoints: (
+  xs: 23.438rem,
+  // 375px
+  sm: 47.9375rem,
+  // 767px
+  md: 61.938rem,
+  // 991px
+  lg: 74.938rem,
+  // 1199px
+  xl: 90rem,
+  // 1440px
+);
+
+/*=====  End of BREAKPOINTS  ======*/
